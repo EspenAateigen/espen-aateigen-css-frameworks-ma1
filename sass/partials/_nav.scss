@@ -2,6 +2,7 @@ nav {
   background: getColour(secondary);
   .container {
     @extend .container-flex;
+    margin-bottom: 2em;
   }
 
   .nav__link {

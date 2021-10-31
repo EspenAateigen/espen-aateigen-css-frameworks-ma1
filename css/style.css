@@ -51,12 +51,16 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 3em;
+  margin-bottom: 2em;
   font-size: 2em;
 }
 
 nav {
   background: #f4f3ee;
+}
+
+nav .container {
+  margin-bottom: 2em;
 }
 
 nav .nav__link {
@@ -129,5 +133,8 @@ footer {
       flex-shrink: 0;
   padding: 0.5rem;
   font-size: 0.8rem;
+  font-family: "archivo narrow", sans-serif;
+  color: #8d8d8d;
+  margin-top: 2em;
 }
 /*# sourceMappingURL=style.css.map */

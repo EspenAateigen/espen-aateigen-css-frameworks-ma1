@@ -3,6 +3,9 @@ footer {
   flex-shrink: 0;
   padding: 0.5rem;
   font-size: 0.8rem;
+  font-family: $font-navbar;
+  color: getColour(navfoottext);
+  margin-top: 2em;
 
   .container {
     @extend .container-flex;
