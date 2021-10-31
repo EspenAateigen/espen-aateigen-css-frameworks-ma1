@@ -1,0 +1,32 @@
+nav {
+  background: getColour(secondary);
+  .container {
+    @extend .container-flex;
+  }
+
+  .nav__link {
+    color: getColour(navfoottext);
+    font-family: $font-navbar;
+  }
+
+  .nav__link--active {
+    color: getColour(primary);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    margin-left: 1em;
+  }
+  .title {
+    font-size: 2em;
+    color: black;
+  }
+}

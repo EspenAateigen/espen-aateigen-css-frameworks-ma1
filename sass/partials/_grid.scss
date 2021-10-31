@@ -1,0 +1,30 @@
+.boxgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1300px;
+  gap: 2em;
+  margin: auto;
+
+  &__item {
+    border-radius: 15px;
+    border: 3px solid getColour(secondary);
+    height: 263px;
+    width: 264px;
+    padding: 0;
+    background: getColour(secondary);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    &--pink {
+      @extend .boxgrid__item;
+      background: getColour(primary);
+      border-color: getColour(secondary);
+    }
+
+    &--pink-border {
+      @extend .boxgrid__item;
+      background-color: getColour(secondary);
+      border-color: getColour(primary);
+    }
+  }
+}

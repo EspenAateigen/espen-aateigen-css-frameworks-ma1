@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e5e5e5;
+  font-family: "open sans", sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container-flex, nav .container, footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3em;
+  font-size: 2em;
+}
+
+nav {
+  background: #f4f3ee;
+}
+
+nav .nav__link {
+  color: #8d8d8d;
+  font-family: "archivo narrow", sans-serif;
+}
+
+nav .nav__link--active {
+  color: #c32772;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+nav .title {
+  font-size: 2em;
+  color: black;
+}
+
+.boxgrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1300px;
+  gap: 2em;
+  margin: auto;
+}
+
+.boxgrid__item, .boxgrid__item--pink, .boxgrid__item--pink-border {
+  border-radius: 15px;
+  border: 3px solid #f4f3ee;
+  height: 263px;
+  width: 264px;
+  padding: 0;
+  background: #f4f3ee;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.boxgrid__item--pink {
+  background: #c32772;
+  border-color: #f4f3ee;
+}
+
+.boxgrid__item--pink-border {
+  background-color: #f4f3ee;
+  border-color: #c32772;
+}
+
+footer {
+  background: #f4f3ee;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+footer {
+  background: getColour(secondary);
+  flex-shrink: 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+
+  .container {
+    @extend .container-flex;
+  }
+}
